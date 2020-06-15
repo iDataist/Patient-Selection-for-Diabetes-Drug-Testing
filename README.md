@@ -5,17 +5,12 @@ In order to achieve your goal you must build a regression model that can predict
 
 **Expected Hospitalization Time Regression Model:** Utilizing a synthetic dataset(denormalized at the line level augmentation) built off of the UCI Diabetes readmission dataset, students will build a regression model that predicts the expected days of hospitalization time and then convert this to a binary prediction of whether to include or exclude that patient from the clinical trial.
 
-This project will demonstrate the importance of building the right data representation at the encounter level, with appropriate filtering and preprocessing/feature engineering of key medical code sets. This project will also require students to analyze and interpret their model for biases across key demographic groups. 
+This project will demonstrate the importance of building the right data representation at the encounter level, with appropriate filtering and preprocessing/feature engineering of key medical code sets. This project will also require students to analyze and interpret their model for biases across key demographic groups.
 
 ### Dataset
 Due to healthcare PHI regulations (HIPAA, HITECH), there are limited number of publicly available datasets and some datasets require training and approval. So, for the purpose of this exercise, we are using a dataset from UC Irvine that has been modified for this course. Please note that it is limited in its representation of some key features such as diagnosis codes which are usually an unordered list in 835s/837s (the HL7 standard interchange formats used for claims and remits).
 
 - https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
-
-## Getting Started
-
-Follow the instructions in `starter_code/student_project.ipynb` and be sure to set up your Anaconda environment to get started!
-
 
 ### Dependencies
 Using Anaconda consists of the following:
@@ -31,7 +26,7 @@ Using Anaconda consists of the following:
 
 **Download** the latest version of `miniconda` that matches your system.
 
-|        | Linux | Mac | Windows | 
+|        | Linux | Mac | Windows |
 |--------|-------|-----|---------|
 | 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64]
 | 32-bit | [32-bit (bash installer)][lin32] |  | [32-bit (exe installer)][win32]
@@ -50,7 +45,7 @@ Using Anaconda consists of the following:
 
 ## 2. Create and Activate the Environment
 
-For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work. 
+For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
 #### Git and version control
 These instructions also assume you have `git` installed for working with Github from a terminal window, but if you do not, you can download that first with the command:
@@ -70,31 +65,25 @@ cd nd320-c1-emr-data-starter/project/
 
 2. Create (and activate) a new environment, named `udacity-ehr-env` with Python 3.7. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	- __Linux__ or __Mac__: 
+	- __Linux__ or __Mac__:
 	```
 	conda create -n udacity-ehr-env python=3.7
 	source activate udacity-ehr-env
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda create --name udacity-ehr-env python=3.7
 	activate udacity-ehr-env
 	```
-	
+
 	At this point your command line should look something like: `(udacity-ehr-env) <User>:USER_DIR <user>$`. The `(udacity-ehr-env)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 
 
 6. Install a few required pip packages, which are specified in the requirements text file. Be sure to run the command from the project root directory since the requirements.txt file is there. I also added a line for installing the environment in your notebook in case this is new for you. You should be able to now look for the environment when you select the kernel.
- 
+
 ```
 pip install -r requirements.txt
 ipython3 kernel install --name udacity-ehr-env --user
 
 ```
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md]()
