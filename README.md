@@ -1,8 +1,8 @@
 # Diabetes Drug Testing
-I built a [model]() that predicts the expected days of hospitalization time, which determines  whether the patient is selected for the clinical trial. In clinical trials, the drug is often administered over a few days in the hospital with frequent monitoring/testing. Therefore, the target patients are people that are likely to be in the hospital for this duration of time and will not incur significant additional costs for administering this drug to the patient and monitoring after discharge.  
+I built a [model](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/patient_selection.ipynb) that predicts the expected days of hospitalization time, which determines  whether the patient is selected for the clinical trial. In clinical trials, the drug is often administered over a few days in the hospital with frequent monitoring/testing. Therefore, the target patients are people that are likely to be in the hospital for this duration of time and will not incur significant additional costs for administering the drug and monitoring after discharge.  
 
 ## Dataset
-I used a [dataset from UC Irvine](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008).
+I used a modified [dataset](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/data/final_project_dataset.csv) from [UC Irvine](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008).
 
 ## Dependencies
 Using Anaconda consists of the following:
@@ -61,7 +61,7 @@ cd Downloads
 	At this point your command line should look something like: `(ehr-env) <User>:USER_DIR <user>$`. The `(ehr-env)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 
-- Install a few required pip packages, which are specified in the requirements text file. Be sure to run the command from the project root directory since the requirements.txt file is there. 
+- Install a few required pip packages, which are specified in the requirements text file. Be sure to run the command from the project root directory since the requirements.txt file is there.
 ```
 pip install -r requirements.txt
 ipython3 kernel install --name ehr-env --user
