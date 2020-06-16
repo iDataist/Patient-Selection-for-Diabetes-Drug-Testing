@@ -7,7 +7,7 @@ I used a modified [dataset](https://github.com/iDataist/Patient-Selection-for-Di
 ## Dependencies
 Using Anaconda consists of the following:
 
-#### Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer, by selecting the latest Python version for your operating system. If you already have `conda` or `miniconda` installed, you should be able to skip this step and move on to step 2.
+#### 1.Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer, by selecting the latest Python version for your operating system. If you already have `conda` or `miniconda` installed, you should be able to skip this step and move on to step 2.
 
 **Download** the latest version of `miniconda` that matches your system.
 
@@ -28,7 +28,7 @@ Using Anaconda consists of the following:
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-#### Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
+#### 2.Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
 
 For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
@@ -37,7 +37,7 @@ These instructions also assume you have `git` installed for working with Github 
 conda install git
 ```
 
-#### Create local environment
+#### 3.Create local environment
 
 - Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
