@@ -1,5 +1,5 @@
 # Diabetes Drug Testing
-I built a [model](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/patient_selection.ipynb) that predicts the expected days of hospitalization time, which determines  whether the patient is selected for the clinical trial. In clinical trials, the drug is often administered over a few days in the hospital with frequent monitoring/testing. Therefore, the target patients are people that are likely to be in the hospital for this duration of time and will not incur significant additional costs for administering the drug and monitoring after discharge.  
+I built a [model](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/patient_selection.ipynb) that predicts the expected days of hospitalization time, which determines whether the patient is selected for the clinical trial. In clinical trials, the drug is often administered over a few days in the hospital with frequent monitoring/testing. Therefore, the target patients are people that are likely to be in the hospital for this duration of time and will not incur significant additional costs for administering the drug and monitoring after discharge.  
 
 ## Dataset
 I used a modified [dataset](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/data/final_project_dataset.csv) from [UC Irvine](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008).
@@ -7,7 +7,7 @@ I used a modified [dataset](https://github.com/iDataist/Patient-Selection-for-Di
 ## Dependencies
 Using Anaconda consists of the following:
 
-### Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer, by selecting the latest Python version for your operating system. If you already have `conda` or `miniconda` installed, you should be able to skip this step and move on to step 2.
+#### Install [`miniconda`](http://conda.pydata.org/miniconda.html) on your computer, by selecting the latest Python version for your operating system. If you already have `conda` or `miniconda` installed, you should be able to skip this step and move on to step 2.
 
 **Download** the latest version of `miniconda` that matches your system.
 
@@ -28,7 +28,7 @@ Using Anaconda consists of the following:
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-### Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
+#### Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
 
 For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
@@ -37,7 +37,7 @@ These instructions also assume you have `git` installed for working with Github 
 conda install git
 ```
 
-### Create local environment
+#### Create local environment
 
 - Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
