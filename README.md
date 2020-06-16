@@ -1,4 +1,4 @@
-# Diabetes Drug Testing
+# Patient Selection for Diabetes Drug Testing
 I built a [model](https://github.com/iDataist/Patient-Selection-for-Diabetes-Drug-Testing/blob/master/src/patient_selection.ipynb) that predicts the expected days of hospitalization time, which determines whether the patient is selected for the clinical trial. In clinical trials, the drug is often administered over a few days in the hospital with frequent monitoring/testing. Therefore, the target patients are people that are likely to be in the hospital for this duration of time and will not incur significant additional costs for administering the drug and monitoring after discharge.  
 
 ## Dataset
