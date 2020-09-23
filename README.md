@@ -28,7 +28,7 @@ Using Anaconda consists of the following:
 - **Mac:** http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install
 - **Windows:** http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install
 
-#### 2.Create and activate * a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
+#### 2.Create and activate a new `conda` [environment](http://conda.pydata.org/docs/using/envs.html).
 
 For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
